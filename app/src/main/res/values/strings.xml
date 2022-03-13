@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ARTApp</string>
+
+    <string-array name="vehichle_type">
+        <item>Public Bus</item>
+        <item>City cab</item>
+        <item>Auto</item>
+        <item>Bike Ride</item>
+        <item>Share Cab</item>
+        <item>Outstation Rides</item>
+    </string-array>
+    <string name="title_activity_track_map">Map</string>
+    <string name="title_activity_publicbus">Map</string>
+
+</resources>

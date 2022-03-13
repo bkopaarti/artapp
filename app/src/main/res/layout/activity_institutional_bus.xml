@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.InstitutionalBusActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            app:civ_border_color="#7C6868"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/student"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_name"
+            android:text="  Student name"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_class"
+            android:text="  Class"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_rollno"
+            android:text="  Roll_no"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/ic_route"
+            android:text="  Daily route"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay Bus Fees"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>
