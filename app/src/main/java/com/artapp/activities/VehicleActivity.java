@@ -113,7 +113,7 @@ public class VehicleActivity extends AppCompatActivity {
                                         // get user input and set it to result
                                         // edit text
                                         String roll_no=userInput.getText().toString();
-                                        if (roll_no=="2053008"){
+                                        if (roll_no.equals("2053008")){
                                             Toast.makeText(VehicleActivity.this, "Your are registered", Toast.LENGTH_SHORT).show();
                                         }
                                         else {
